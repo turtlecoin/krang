@@ -2,7 +2,7 @@
 
 This repo is where a Blockchain Automation Suite is going to live. The end goals are:
 
-1. Completely scripted infrastructure povisioning
+1. Completely scripted infrastructure provisioning
    1. 1st Digital Ocean then others Scaleway, Packet, GCE, AWS, etc
 2. Completely scripted configuration management
    1. OS updates, Firewalls, IPs, Ports, Software, etc
