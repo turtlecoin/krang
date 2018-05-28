@@ -1,0 +1,8 @@
+##
+## Please create a secrets.tfvars file with the below
+DO_SECRET_KEY = "INSERT KEY HERE"
+
+THIS FILE IS IN .gitignore and will not be commited for security reasons
+
+You will be prompted to provide the key if the file is not included
+

@@ -27,8 +27,21 @@ This is the plan. We are going to package everything into Docker containers and 
 If you'd like to contribute join us on [#dev_general](https://discord.gg/JutXdZC) on the TurtleCoin Discord server
 
 So far we are:
-  + @SoreGums
-  + @Slash-atello
+  + @SoreGums (AU)
+  + @Slash-atello (AU)
+  + @funkypenguin (NZ)
   
+Working Tasklist
 
+Slash-atello Tasks
+- Get the 'Terrform Infrastrucure as a code' working and deploying instances to Digital Ocean and AWS (also install ansible requirements)
+   - Make the code more flexible (better use of variables etc.)
+   - Deploy multiple nodes
+   - Deploy Docker images
+   - Deploy Load Balancer
+   - Wrap in a shell script
+- Create ansible roles for any complex config managment
+- Integrate Docker deployments with funkypenguin (pools, daemons, blockchain explorer etc.)
+- Improve the code's readability, portability and reusablity
+- SoreGums to review ongoing
       
