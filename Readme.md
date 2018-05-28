@@ -32,7 +32,8 @@ So far we are:
   + @funkypenguin (NZ)
   
 Working Tasklist
-Slash-at Tasks
+
+Slash-atello Tasks
 - Get the 'Terrform Infrastrucure as a code' working and deploying instances to Digital Ocean and AWS (also install ansible requirements)
 - Create ansible roles for any complex config managment
 - Integrate Docker deployments with funkypenguin (pools, daemons, blockchain explorer etc.)
