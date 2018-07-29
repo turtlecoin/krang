@@ -1,3 +1,8 @@
+# Copyright (c) 2018, Nicholas Orr, The TurtleCoin Developers
+# 
+# Please see the included LICENSE file for more information.
+
+
 # clone the turtlecoin/krang repo to home dir
 # > git clone https://github.com/turtlecoin/krang.git ~/krang
 #
@@ -306,4 +311,3 @@ CMD [ "pm2-runtime", "start", "trtl-mainnet.js" ]
 # 
 # ENTRYPOINT ["/miner"]
 # CMD ["--daemon-host", "turtlecoind", "--threads", "1", "--log-level", "4", "--address", "over-ride-cmd-and-specify-address"]
-
