@@ -45,6 +45,10 @@ else:
 	#rtarget = open(tfsecpath)
 	#print rtarget.read(tfsecpath)
 	#rtarget.close()
+	f = open(tfsecpath, "r")
+	print f.read()
+	f.close()
+
 
 
 ## DESIGN / SCRIPT FLOW / FUNCTIONS
