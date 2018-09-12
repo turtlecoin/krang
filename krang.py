@@ -23,11 +23,10 @@ print "Welcome to Krang"
 print "----------------"
 print "(Will pay TRTL for ASCII Art) NOTE: Speak to bakedminds)"
 
-## FUNCTION 1 = PRE-REQS
+## FUNCTION 1 = FILE CHECKER
 def check_file_exists(filepath):
 	print "Check if %s exists" % filepath
 	## THIS WILL FAIL IF RAN USING ../../../ location traversing to execute Krang - Figure that out later - Works if ran using ./krang.pl
-	## EXTEND THIS CHECKING TO OTHER FILES LATER
 	if os.path.isfile(filepath) and os.access(filepath, os.R_OK):
 		print bcolors.OKGREEN + "File exists and is readable" + bcolors.ENDC # RETURN TO CONTINE, SETUP TO RUN SETUP
 		return True
@@ -35,9 +34,8 @@ def check_file_exists(filepath):
 		print bcolors.WARNING + "File is missing" + bcolors.ENDC #RUN SETUP
 		return False
 
-
+## FUNCTION 2 = DIGITALOCEAN SETUP
 def digitalocean_setup():
-	## FUNCTION 2 = DIGITALOCEAN SETUP
 	print bcolors.OKBLUE + "This is where to ask which provider to be used (future). Currently only using Digital Ocean. NEXT" + bcolors.ENDC
 	DO_API = raw_input("Please provide an API key to access your Digital Ocean Environment.\n>")
 	target = open(tfsecpath, "w+")
@@ -46,11 +44,12 @@ def digitalocean_setup():
 	fcheck = open(tfsecpath, "r")
 	print fcheck.read()
 	fcheck.close()
+	
 
 if check_file_exists(tfsecpath) is False:
 	digitalocean_setup()
 else:
-	print ("Jobs Done")
+	print ("NEXT TASK def DO_TF_PLAN() def DO_TF_INIT()")
 
 
 ## DESIGN / SCRIPT FLOW / FUNCTIONS
