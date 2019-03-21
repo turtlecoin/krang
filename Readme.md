@@ -21,6 +21,7 @@ This repo is where a Blockchain Automation Suite is going to live. The end goals
       - now add in 6 daemons on the next version
       - now start up wallets and send transactions
    4. will allow for custom scenarios that aren't covered by the existing suite
+ 5. Once all that exists and works for TurtleCoin start all over again refactoring so it works with any blockchain network.
     
 This is the plan. We are going to package everything into Docker containers and as such will build out a Docker build CI/CD/CD pipeline as well. Everything will be automated/scripted.
 
